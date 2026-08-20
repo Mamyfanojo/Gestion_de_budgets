@@ -51,7 +51,7 @@ class LoginController extends Controller
             'user_agent' => $request->userAgent(),
         ]);
 
-        return redirect()->intended('/dashboard')->with('success', 'Bienvenue sur votre espace FinancesPro !');
+        return redirect()->intended('/dashboard')->with('success', 'Bienvenue sur votre espace Tahiry !');
     }
 
     public function logout(Request $request)

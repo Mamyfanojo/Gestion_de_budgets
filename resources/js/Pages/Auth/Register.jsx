@@ -29,7 +29,7 @@ export default function Register() {
           <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">
             Créer un compte
           </h1>
-          <p className="text-sm text-slate-400 mt-1">Rejoignez FinancesPro pour piloter vos budgets</p>
+          <p className="text-sm text-slate-400 mt-1">Rejoignez Tahiry pour piloter vos budgets</p>
         </div>
 
         <div className="glass-panel rounded-3xl p-8 shadow-2xl border border-slate-800/80">

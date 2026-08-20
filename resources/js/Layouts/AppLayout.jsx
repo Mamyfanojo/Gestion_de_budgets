@@ -112,7 +112,7 @@ export default function AppLayout({ children, title }) {
               </div>
               <div>
                 <span className="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">
-                  FinancesPro
+                  Tahiry
                 </span>
                 <span className="block text-[10px] uppercase tracking-wider font-semibold text-emerald-400">
                   {user?.main_currency || 'MGA'} • Budget App

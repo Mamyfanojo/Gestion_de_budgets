@@ -28,7 +28,7 @@ export default function Login() {
             <Sparkles className="w-7 h-7 text-white" />
           </div>
           <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">
-            FinancesPro
+            Tahiry
           </h1>
           <p className="text-sm text-slate-400 mt-1">Gestion de Budgets & Finances Personnelles</p>
         </div>
