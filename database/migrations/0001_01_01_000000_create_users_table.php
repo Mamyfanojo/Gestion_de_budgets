@@ -17,6 +17,16 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('avatar_path')->nullable();
+            $table->string('main_currency', 10)->default('MGA');
+            $table->string('locale', 10)->default('fr');
+            $table->string('timezone', 50)->default('Indian/Antananarivo');
+            $table->string('theme', 20)->default('dark');
+            $table->text('two_factor_secret')->nullable();
+            $table->boolean('two_factor_enabled')->default(false);
+            $table->text('two_factor_recovery_codes')->nullable();
+            $table->boolean('is_admin')->default(false);
+            $table->boolean('is_active')->default(true);
             $table->rememberToken();
             $table->timestamps();
         });
